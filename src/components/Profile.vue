@@ -11,7 +11,7 @@
             </div>
 
             <div class="profile-pic w-1/3 p-4 flex justify-center">
-                <img class="rounded-full max-h-56 mt-2" alt="" src="/imgs/profile_pic2.png"/>
+                <img class="rounded-full max-h-56 mt-2" alt="" src="https://gafalcon.github.io/my_resume_website/imgs/profile_pic2.png"/>
             </div>
 
             <div class="details w-1/3 p-4">
