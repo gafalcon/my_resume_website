@@ -3,6 +3,7 @@
     <Profile/>
     <Experiences/>
     <Abilities/>
+    <Projects/>
 </template>
 
 <script>
@@ -10,11 +11,12 @@ import Header from './components/Header.vue'
 import Profile from './components/Profile.vue'
 import Experiences from './components/Experiences.vue'
 import Abilities from './components/Abilities.vue'
+import Projects from './components/Projects.vue'
 
 export default {
   name: 'App',
   components: {
-      Header, Profile, Experiences, Abilities
+      Header, Profile, Experiences, Abilities, Projects
   }
 }
 </script>
