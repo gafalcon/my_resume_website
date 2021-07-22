@@ -1,5 +1,7 @@
 # my_resume_website
 
+Implemented with VueJS3 and Tailwind css
+
 ## Project setup
 ```
 npm install
