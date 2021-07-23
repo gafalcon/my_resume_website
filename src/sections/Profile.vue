@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import Heading from './Heading.vue'
+import Heading from '../components/Heading.vue'
 export default {
     name: 'Profile',
     components: { Heading }

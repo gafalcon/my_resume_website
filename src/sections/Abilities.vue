@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import Heading from './Heading.vue'
-import SkillSection from './SkillSection.vue'
+import Heading from '../components/Heading.vue'
+import SkillSection from '../components/SkillSection.vue'
 export default {
     name: 'Abilities',
     components: {

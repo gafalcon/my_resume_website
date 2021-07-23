@@ -7,11 +7,11 @@
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Profile from './components/Profile.vue'
-import Experiences from './components/Experiences.vue'
-import Abilities from './components/Abilities.vue'
-import Projects from './components/Projects.vue'
+import Header from './sections/Header.vue'
+import Profile from './sections/Profile.vue'
+import Experiences from './sections/Experiences.vue'
+import Abilities from './sections/Abilities.vue'
+import Projects from './sections/Projects.vue'
 
 export default {
   name: 'App',

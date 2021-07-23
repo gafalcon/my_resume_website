@@ -1,5 +1,5 @@
 <template>
-    <section id="experiences" class="bg-gray-200">
+    <section id="experiences" class="bg-gray-100">
         <div class="container mx-auto p-8">
             <Heading title="Experiences" />
             <Education/>
@@ -9,9 +9,9 @@
 </template>
 
 <script>
-import Heading from './Heading.vue'
-import Education from './Education.vue'
-import Work from './Work.vue'
+import Heading from '../components/Heading.vue'
+import Education from '../components/Education.vue'
+import Work from '../components/Work.vue'
 
 export default {
     name: 'Experiences',
