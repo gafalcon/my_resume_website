@@ -1,5 +1,5 @@
 <template>
-    <section id="experiences" class="bg-gray-100">
+    <section id="experiences" class="section bg-gray-100">
         <div class="container mx-auto p-8">
             <Heading title="Experiences" />
             <Education/>

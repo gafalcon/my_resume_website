@@ -1,5 +1,5 @@
 <template>
-    <div class="work px-4 pb-8 section">
+    <div class="work px-4 pb-8 experience-section">
         <h2 class="text-blue-700 text-3xl">Work Experience <i class="fas fa-briefcase"></i></h2>
         <div class="flex my-3" v-for="(job, jindex) in jobs" :key="jindex">
             <div class="company w-2/5">

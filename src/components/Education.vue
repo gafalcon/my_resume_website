@@ -1,5 +1,5 @@
 <template>
-    <div class="education px-4 pb-8 section">
+    <div class="education px-4 pb-8 experience-section">
         <h2 class="text-blue-700 text-3xl">Education <i class="fas fa-graduation-cap"></i></h2>
         <div class="flex my-3" v-for="education in educations" :key="education.id">
             <div class="school w-2/5">

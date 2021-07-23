@@ -1,5 +1,5 @@
 <template>
-    <section id="skills" class="p-16">
+    <section id="skills" class="section p-16">
         <div class="container mx-auto px-60">
             <Heading title="Abilities" />
             <template v-for="(section, i) in sections" :key="i">
