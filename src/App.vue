@@ -49,7 +49,7 @@ export default {
                 threshold: 0.5
             }
             this.sectionObserver = new IntersectionObserver(this.sectionObserverHandler, options)
-            
+
             // Observe each section
             const sections = document.querySelectorAll('.section')
             sections.forEach(section => {
@@ -61,7 +61,6 @@ export default {
                 if (entry.isIntersecting) {
                     const sectionId = entry.target.id
                     this.currentSection = sectionId;
-                    // this.$router.push({ name: this.$route.name, hash: `#${sectionId}` })
                 }
             }
         }

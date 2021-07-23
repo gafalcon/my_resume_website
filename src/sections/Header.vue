@@ -28,7 +28,7 @@ export default {
 
 <style scoped>
 header {
-    background-image: linear-gradient(90deg, rgba(2,0,36,0.7) 0%, rgba(96,165,250,0.7) 0%, rgba(96,165,250,0.7) 96%), url("https://gafalcon.github.io/my_resume_website/imgs/hero-background.jpg"); 
+    background-image: linear-gradient(90deg, rgba(2,0,36,0.7) 0%, rgba(96,165,250,0.7) 0%, rgba(96,165,250,0.7) 96%), url("../assets/coding_wallpaper.png"); 
 }
 
 h1 span{
