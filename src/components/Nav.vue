@@ -21,6 +21,8 @@ export default {
                 {name: 'Experiences', tag: 'experiences'},
                 {name: 'Abilities', tag: 'skills'},
                 {name: 'Projects', tag: 'projects'},
+                {name: 'Awards', tag: 'awards'},
+                {name: 'Publications', tag: 'publications'},
                 {name: 'Contact', tag: 'contact'},
             ]
         

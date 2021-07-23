@@ -5,6 +5,8 @@
     <Experiences/>
     <Abilities/>
     <Projects/>
+    <Awards/>
+    <Publications/>
     <Contact/>
 </template>
 
@@ -15,12 +17,16 @@ import Experiences from './sections/Experiences.vue'
 import Abilities from './sections/Abilities.vue'
 import Projects from './sections/Projects.vue'
 import Contact from './sections/Contact.vue'
+import Publications from './sections/Publications.vue'
+import Awards from './sections/Awards.vue'
 import Nav from './components/Nav.vue'
 
 export default {
   name: 'App',
   components: {
-      Header, Profile, Experiences, Abilities, Projects, Nav, Contact
+      Header, Profile, Experiences,
+      Abilities, Projects, Nav, Contact,
+      Publications, Awards
   },
     data(){
         return {
