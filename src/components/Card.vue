@@ -6,7 +6,7 @@
         <div class="relative px-4 -mt-16  ">
             <div class="bg-white p-6 rounded-lg shadow-lg">
                 <h4 class="mt-1 text-xl text-blue-800 font-semibold uppercase leading-tight truncate">
-                    <a :href="url" target="_blank" >{{title}} <i class="fas fa-external-link-alt"></i></a>
+                    <a :href="url" target="_blank" class="hover:text-blue-600">{{title}} <i class="fas fa-external-link-alt"></i></a>
                 </h4>
                 
                 <div class="mt-1">

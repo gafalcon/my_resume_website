@@ -11,7 +11,7 @@
                 <ul class="list-disc list-inside list-inside">
                     <li v-for="(desc, i) in job.description" :key="i">{{desc}}</li> 
                 </ul>
-                <a class="text-blue-500" :href="job.url"><i class="fas fa-link"></i> {{ job.url }}</a>
+                <a class="text-blue-500 hover:text-blue-400" :href="job.url"><i class="fas fa-link"></i> {{ job.url }}</a>
             </div>
         </div>
     </div>

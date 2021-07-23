@@ -12,6 +12,10 @@
                       :description="project.description"
                 />
             </div>
+
+            <p class="text-center text-2xl">
+                <a class="text-blue-600 hover:text-blue-400" href="https://github.com/gafalcon">Check out my github projects: <i class="fab fa-github"></i></a>
+            </p>
         </div>
     </section> 
 </template>
