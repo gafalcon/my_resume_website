@@ -4,7 +4,7 @@
             <Heading title="Projects" />
 
             <h3 class="text-blue-700 text-2xl">Web</h3>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-16 mb-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mb-6">
                 <Card v-for="(project, i) in projects_web" :key="i"
                       :title="project.title"
                       :img_url="project.img_url"
@@ -15,7 +15,7 @@
             </div>
 
             <h3 class="text-blue-700 text-2xl">ML</h3>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-16 mb-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mb-4">
                 <Card v-for="(project, i) in projects_ml" :key="i"
                       :title="project.title"
                       :img_url="project.img_url"
@@ -50,7 +50,7 @@ export default {
             ],
             projects_ml: [
                 {img_url: 'rap.png', url: 'https://github.com/gafalcon/dl_rap_postures', title: 'Posture Classifier', description: 'Classifying posture of speakers using deep learning', tags: ['Deep Learning', 'Tensorflow']},
-                // {img_url: '', url: '', title: '', description: '', tags: []},
+                {img_url: 'lstm_seq.png', url: 'https://github.com/gafalcon/lstm_predict_log_sequence', title: 'Predict Action Sequence', description: 'Implementation of Seq2Seq model to predict sequence of actions on a website', tags: ['Deep Learning', 'RNNs', 'Seq2Seq', 'Pytorch']},
                 // {img_url: '', url: '', title: '', description: '', tags: []},
                 // {img_url: '', url: '', title: '', description: '', tags: []},
             ]

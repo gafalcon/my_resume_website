@@ -1,7 +1,7 @@
 <template>
     <div>
         
-        <img :src="require(`@/assets/${img_url}`)" :alt="title" class="w-full h-64 object-cover object-center rounded-lg shadow-md">    
+        <img :src="require(`@/assets/${img_url}`)" :alt="title" class="w-full h-64 object-fill object-center rounded-lg shadow-md">    
         
         <div class="relative px-4 -mt-16  ">
             <div class="bg-white p-6 rounded-lg shadow-lg">
