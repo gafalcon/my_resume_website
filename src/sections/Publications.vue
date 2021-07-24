@@ -1,5 +1,5 @@
 <template>
-    <section id="publications" class="pb-8 section bg-yellow-100">
+    <section id="publications" class="pb-8 section bg-gray-200">
         <div class="container mx-auto p-8">
             <Heading title="Publications" />
             <ul>
