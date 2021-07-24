@@ -2,13 +2,13 @@
     <section id="contact" class="section bg-gray-700 pb-16 text-gray-400 text-lg">
         <div class="container mx-auto p-8">
             <Heading title="Contact" color="text-gray-400" />
-            <div class="flex justify-center mt-16">
-                <div class="linkedin-contact mr-24">
+            <div class="flex flex-wrap justify-center mt-16">
+                <div class="linkedin-contact md:mr-24">
                     <a class="hover:text-white flex items-center"  href="https://www.linkedin.com/in/gabriel-falcones">
                         <i class="fab fa-linkedin text-3xl mr-4"></i><span> www.linkedin.com/in/gabriel-falcones</span>
                     </a>
                 </div>
-                <div class="email-contact ml-24">
+                <div class="email-contact md:ml-24">
                     <a class="hover:text-white flex items-center" href="mailto:gabofalc@gmail.com">
                         <i class="fas fa-at text-3xl mr-4"></i>  gabofalc@gmail.com
                     </a>

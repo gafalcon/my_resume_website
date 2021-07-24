@@ -2,12 +2,12 @@
     <section id="awards" class="section">
         <div class="container mx-auto p-8">
             <Heading title="Scholarhips and Awards" />
-            <div class="flex my-3" v-for="(award, id) in awards" :key="id">
-                <div class="school w-2/5">
+            <div class="flex flex-wrap my-3 mb-6" v-for="(award, id) in awards" :key="id">
+                <div class="school w-full md:w-2/5">
                     <h4 class="font-bold text-xl">{{ award.institution}}</h4>
                     <p>{{ award.date }}</p>
                 </div>
-                <div class="degree w-3/5">
+                <div class="degree w-full md:w-3/5">
                     <h5 class="font-bold text-lg">{{ award.title }}</h5>
                     <p>{{ award.description }}</p>
                 </div>

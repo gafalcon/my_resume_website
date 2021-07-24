@@ -2,7 +2,7 @@
     <header
         class="flex flex-col  content-center h-screen bg-fixed bg-center bg-cover bg-no-repeat" 
     >
-        <h1 class="mt-64 pt-4 text-white text-7xl tracking-tight font-mono leading-none text-center">
+        <h1 class="mt-64 pt-4 text-white text-5xl md:text-7xl tracking-tight font-mono leading-none text-center">
             <span>
                 Gabriel Falcones
             </span>

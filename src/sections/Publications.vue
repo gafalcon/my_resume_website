@@ -3,7 +3,7 @@
         <div class="container mx-auto p-8">
             <Heading title="Publications" />
             <ul>
-                <li class="list-disc list-inside mb-2 text-lg" v-for="(publication, id) in publications" :key="id">
+                <li class="list-disc list-inside mb-2 text-lg text-justify" v-for="(publication, id) in publications" :key="id">
                     {{ publication.desc }}
                 </li>
             </ul>

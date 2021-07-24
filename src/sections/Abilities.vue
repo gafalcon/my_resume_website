@@ -1,6 +1,6 @@
 <template>
     <section id="skills" class="section p-16">
-        <div class="container mx-auto px-60">
+        <div class="container mx-auto md:px-32 pxlg:px-60">
             <Heading title="Abilities" />
             <template v-for="(section, i) in sections" :key="i">
                 <SkillSection :title="section.name" :skills="section.skills" />

@@ -1,15 +1,15 @@
 <template>
     <div class="work px-4 pb-8 experience-section">
         <h2 class="text-blue-700 text-3xl">Work Experience <i class="fas fa-briefcase"></i></h2>
-        <div class="flex my-3" v-for="(job, jindex) in jobs" :key="jindex">
-            <div class="company w-2/5">
+        <div class="flex flex-wrap my-3" v-for="(job, jindex) in jobs" :key="jindex">
+            <div class="company w-full md:w-2/5">
                 <h4 class="font-bold text-xl">{{ job.company }}</h4>
                 <p>{{ job.date }}</p>
             </div>
-            <div class="degree w-3/5">
+            <div class="degree w-full md:w-3/5 mb-4">
                 <h5 class="font-bold text-lg">{{ job.title }}</h5>
                 <ul class="list-disc list-inside list-inside">
-                    <li v-for="(desc, i) in job.description" :key="i">{{desc}}</li> 
+                    <li class="text-justify" v-for="(desc, i) in job.description" :key="i">{{desc}}</li> 
                 </ul>
                 <a class="text-blue-500 hover:text-blue-400" :href="job.url"><i class="fas fa-link"></i> {{ job.url }}</a>
             </div>
