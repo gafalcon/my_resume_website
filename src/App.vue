@@ -22,12 +22,12 @@ import Awards from './sections/Awards.vue'
 import Nav from './components/Nav.vue'
 
 export default {
-  name: 'App',
-  components: {
-      Header, Profile, Experiences,
-      Abilities, Projects, Nav, Contact,
-      Publications, Awards
-  },
+    name: 'App',
+    components: {
+        Header, Profile, Experiences,
+        Abilities, Projects, Nav, Contact,
+        Publications, Awards
+    },
     data(){
         return {
             sectionObserver: null,
@@ -64,7 +64,7 @@ export default {
                 }
             }
         }
-}
+    }
 }
 </script>
 

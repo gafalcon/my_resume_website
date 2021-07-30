@@ -9,7 +9,7 @@
             </div>
             <div class="w-full degree md:w-3/5 mb-4">
                 <h5 class="font-bold text-lg">{{ education.degree }}</h5>
-                <p class="text-justify">Arcu odio ut sem nulla pharetra diam sit amet nisl suscipit? Dignissim sodales ut eu sem integer vitae justo eget magna fermentum iaculis eu non diam phasellus vestibulum lorem sed.</p>
+                <p class="text-justify">{{ education.description }}</p>
             </div>
         </div>
     </div>
@@ -26,14 +26,16 @@ export default {
                     school: 'SUNY at Albany',
                     location: 'Albany, NY, US',
                     date: 'AUG 2019 - MAY 2021',
-                    degree: 'MS in Computer Science'
+                  degree: 'MS in Computer Science',
+                  description: '',
                 },
                 {
                     id: 2,
                     school: 'Escuela Superior Politécnica del Litoral, ESPOL',
                     location: 'Guayaquil, Ecuador',
                     date: 'MAY 2010 - SEPT 2016',
-                    degree: 'Bachelor: Computer Science Engineer' 
+                  degree: 'Bachelor: Computer Science Engineer',
+                  description: '',
                 },
             ]
         }

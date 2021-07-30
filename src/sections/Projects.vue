@@ -43,10 +43,10 @@ export default {
         return {
             projects_web: [
                 {img_url: 'kf.png', url: 'https://knowledgeforum.org', title: 'Knowledge Forum', description: 'A knowledge forum is an electronic group workspace designed to support the process of knowledge building.', tags: ['ReactJS', 'Redux', 'ExpressJS', 'MongoDB']},
+              {img_url: 'mplayer.png', url: 'http://54.147.114.159.nip.io/player', title: 'Music On!', description: 'Play Music, Create Albums and upload Songs', tags: ['Angular', 'Spring-Boot', 'EC2', 'RDS', 'S3']},
                 {img_url: 'covid_tracker.png', url: 'https://mysterious-brook-20381.herokuapp.com/', title: 'Covid Tracker', description: 'Display covid-19 stats of cofirmed cases and confirmed deaths globally and by country.', tags: ['VueJS', 'GoogleAPI']},
                 {img_url: 'travel_planner.png', url: 'http://54.147.114.159.nip.io/', title: 'Travel Planner', description: 'Book Travel Packages', tags: ['Angular', 'ExpressJs', 'GoogleAPIS']},
-                // {img_url: '', url: '', title: 'Ecommerce', description: '', tags: []},
-                // {img_url: '', url: '', title: '', description: '', tags: []},
+              // {img_url: '', url: '', title: '', description: '', tags: []},
             ],
             projects_ml: [
                 {img_url: 'rap.png', url: 'https://github.com/gafalcon/dl_rap_postures', title: 'Posture Classifier', description: 'Classifying posture of speakers using deep learning', tags: ['Deep Learning', 'Tensorflow']},
