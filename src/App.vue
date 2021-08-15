@@ -61,6 +61,7 @@ export default {
                 if (entry.isIntersecting) {
                     const sectionId = entry.target.id
                     this.currentSection = sectionId;
+                  console.log(this.currentSection)
                 }
             }
         }

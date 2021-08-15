@@ -28,7 +28,9 @@ export default {
                     'date': 'MAR 2020 - MAY 2021',
                     'title': 'Part Time Web Developer',
                     'description': [
-                        'Development and Support of Web Application. Database systems design. Front-end (Angular, ReactJS) and Back-end(ExpressJS, MongoDB)'
+                      'Development and Support of Web Applications.',
+                      'Design and Creation of interactive real-time web applications using modern technologies (Angular, React, ExpressJS, SocketIO)',
+                      'Database systems design in MongoDB',
                     ],
                     'url': 'https://kf6-stage.ikit.org/'
                 },
@@ -37,7 +39,8 @@ export default {
                     'date': 'OCT 2018 - AUG 2019',
                     'title': 'Teaching Assistant in Computer Science',
                     'description': [
-                        'Teaching students in laboratory sessions for an introductory course to Computer Science.',  
+                      'Teach an introductory course to Computer Science for university students.',
+                      'Tutor Computer Science students on their internship projects.'
                     ],
                     'url': 'https://espol.edu.ec'
                 },
@@ -46,11 +49,11 @@ export default {
                     'date':'MAY 2015 - SEPT 2018',
                     'title':'Software Developer | Research Assistant',
                     'description': [
-                        'Research in computer vision and multimodal learning analytics, focused in the development of collaborative and educational applications.',
-                        'Assistance in experimentation processes with university students. Collect and preprocess data, perform statistical analysis, using machine learning and data mining techniques, and present results of the experiments.',
-                        'Development of educational collaborative software for interactive surfaces.',
-                        'Implementation of software solutions that enable the tracking of objects and people using computer vision',
-                        'Development of web applications, front-end, back-end. Database systems design.'
+                      'Data Analysis: Collect and Process Data, using machine learning and data mining techniques, on several experiments performed on university students. (Python, Scikit-learn, Pandas, etc)',
+                      'Develop full-stack web applications and database design. (Django, AngularJS, MySQL)',
+                      'Develop desktop applications and embedded apps for Windows and Linux (C#, Python)',
+                      'Implement software for tracking people and objects, using Computer Vision and Deep Learning (C++, Python, OpenCV, Tensorflow)',
+                      'Research in computer vision and multimodal learning analytics, focused in the development of collaborative and educational applications.'
                     ],
                     'url': 'https://cti.espol.edu.ec'
                 },

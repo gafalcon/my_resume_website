@@ -27,7 +27,7 @@ export default {
                     location: 'Albany, NY, US',
                     date: 'AUG 2019 - MAY 2021',
                   degree: 'MS in Computer Science',
-                  description: '',
+                  description: 'Courses: Software Engineering, Machine Learning, Data Mining',
                 },
                 {
                     id: 2,
@@ -35,7 +35,7 @@ export default {
                     location: 'Guayaquil, Ecuador',
                     date: 'MAY 2010 - SEPT 2016',
                   degree: 'Bachelor: Computer Science Engineer',
-                  description: '',
+                  description: 'Courses: Web Development, DataBase Management, Software Engineering',
                 },
             ]
         }
